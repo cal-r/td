@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//src/simulator/SimGroup.java=UTF-8
+encoding//src/simulator/SimModel.java=UTF-8
+encoding//src/simulator/SimPhase.java=UTF-8
+encoding//src/simulator/SimView.java=UTF-8
+encoding//src/simulator/configurables/ITIConfig.java=UTF-8
+encoding//src/simulator/configurables/VariableOnsetConfig.java=UTF-8
+encoding//src/simulator/dialog/ITIDialog.java=UTF-8
+encoding//src/simulator/dialog/OnsetsDialog.java=UTF-8
+encoding//src/simulator/graph/SimGraph.java=UTF-8

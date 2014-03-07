@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project TDSimulator">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/Users/Esther/EclipseWorkspace/TDSimulator/TD_Simulator.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="simulator.Simulator"/>
+            	<attribute name="SplashScreen-Image" value="simulator/extras/TD-Help-About.png"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="C:/Users/Esther/EclipseWorkspace/TDSimulator/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Esther/EclipseWorkspace/TDSimulator/lib/dom4j-1.6.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Esther/EclipseWorkspace/TDSimulator/lib/geronimo-stax-api_1.0_spec-1.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Esther/EclipseWorkspace/TDSimulator/lib/xmlbeans-2.3.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Esther/EclipseWorkspace/TDSimulator/lib/extra166y.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Esther/EclipseWorkspace/TDSimulator/lib/jsr166y.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Esther/EclipseWorkspace/TDSimulator/lib/jfreechart-1.0.14.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Esther/EclipseWorkspace/TDSimulator/lib/jcommon-1.0.17.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Esther/EclipseWorkspace/TDSimulator/lib/poi-3.8-beta5-20111217.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Esther/EclipseWorkspace/TDSimulator/lib/poi-ooxml-3.8-beta5-20111217.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Esther/EclipseWorkspace/TDSimulator/lib/poi-ooxml-schemas-3.8-beta5-20111217.jar"/>
+        </jar>
+    </target>
+</project>
